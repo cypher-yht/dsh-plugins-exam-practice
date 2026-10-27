@@ -1,0 +1,51 @@
+{
+  "name": "@local/exam-practice",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "在 DSH Web UI 新增「四六级刷题」面板：导入题库、在线练习、交卷自动判分并回顾错题。",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "bank/*.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cet4",
+    "cet6",
+    "exam",
+    "practice",
+    "question-bank"
+  ],
+  "author": "cypher-yht",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cypher-yht/dsh-plugins-exam-practice.git"
+  },
+  "homepage": "https://github.com/cypher-yht/dsh-plugins-exam-practice#readme",
+  "bugs": {
+    "url": "https://github.com/cypher-yht/dsh-plugins-exam-practice/issues"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

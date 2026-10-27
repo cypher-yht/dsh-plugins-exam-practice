@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="CET practice">
+  <rect x="9" y="5" width="46" height="54" rx="9" fill="#2f6fd0"/>
+  <path d="M20 17h24M20 25h24M20 33h15" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="45.5" cy="45.5" r="11.5" fill="#ffffff"/>
+  <path d="M40.5 45.8l3.4 3.4L50.5 41" stroke="#2f6fd0" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
